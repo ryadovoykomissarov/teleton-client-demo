@@ -1,7 +1,7 @@
 import asyncio
 from aiogram.utils.chat_action import ChatActionSender
 from aiogram import Router, F
-from aiogram.types import Message, CallbackQuery
+from aiogram.types import Message, CallbackQuery, LinkPreviewOptions
 from workers.w_json import get_channels_by_cat
 
 callback_router = Router()
@@ -19,4 +19,4 @@ async def category_cb_handler(call: CallbackQuery):
         print(row)
         message = message+row
     
-    await call.message.answer(text=message, parse_mode='HTML') # type: ignore
+    await call.message.answer(text=message, parse_mode='HTML', link_preview_options=LinkPreviewOptions(is_disabled=True)) # type: ignore
