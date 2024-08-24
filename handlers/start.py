@@ -10,5 +10,5 @@ start_router = Router()
 async def cmd_start(message: Message):
     dir = os.path.abspath(os.getcwd())
     filename = dir + '/startmsg.png'
-    # await message.answer_photo(photo=FSInputFile(filename), caption='Добро пожаловать на биржу рекламы Teleton! Для поиска рекламы по категориям нажмите кнопку "Купить рекламу"\n\n Подпишитесь на наш информационный канал, чтобы следить за событиями: https://t.me/teletononsight', reply_markup=main_kb(message.from_user.id)) # type: ignore
-    await message.answer('Добро пожаловать на биржу рекламы Teleton! Для поиска рекламы по категориям нажмите кнопку "Купить рекламу"', reply_markup=main_kb(message.from_user.id)) # type: ignore
+    await message.answer_photo(photo=FSInputFile(filename), caption='Добро пожаловать на биржу рекламы Teleton! Для поиска рекламы по категориям нажмите кнопку "Купить рекламу"\n\n Подпишитесь на наш информационный канал, чтобы следить за событиями: https://t.me/teletononsight', reply_markup=main_kb(message.from_user.id)) # type: ignore
+    # await message.answer('Добро пожаловать на биржу рекламы Teleton! Для поиска рекламы по категориям нажмите кнопку "Купить рекламу"', reply_markup=main_kb(message.from_user.id)) # type: ignore
