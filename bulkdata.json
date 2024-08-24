@@ -1,0 +1,39 @@
+{
+    "categories":[ "Технологии", "Работа"],
+    "publics": {
+        "Технологии": [
+            {
+                "name": "Исходный код",
+                "link": "https://t.me/source_code",
+                "subs": "50.000",
+                "price": "7.500 (5 постов)"
+            },
+            {
+                "name": "QA - Automation",
+                "link": "https://t.me/qa_automation",
+                "subs": "12.500",
+                "price": "700 р за публикацию"
+            },
+            {
+                "name": "TechGuru",
+                "link": "https://t.me/Tech_Guru",
+                "subs": "7.000",
+                "price": "1500 р за 3 публикации"
+            }
+        ],
+        "Работа": [
+            {
+                "name": "Работа за бугром",
+                "link": "https://t.me/+77EXhEgOEAw0YzZi",
+                "subs": "18.500",
+                "price": "5000 р / 3 поста"
+            },
+            {
+                "name": "Alif Shop",
+                "link": "https://t.me/alifshopuz",
+                "subs": "5.500",
+                "price": "749 р за публикацию"
+            }
+        ]
+    }
+}

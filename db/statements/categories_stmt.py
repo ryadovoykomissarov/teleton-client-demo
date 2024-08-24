@@ -1,0 +1,1 @@
+SELECT_CATEGORIES = "SELECT id, name FROM categories"

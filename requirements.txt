@@ -1,0 +1,10 @@
+aiogram
+APScheduler
+asyncio
+asyncpg-lite
+Cython
+pandas
+python-decouple
+pipdeptree
+requests
+Telethon
