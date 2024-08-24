@@ -15,7 +15,7 @@ async def category_cb_handler(call: CallbackQuery):
     print(channels)
     message = ""
     for ch in channels:
-        row = "<a href='"+ch['link']+"'>"+ch['name']+"</a>\n"+"Количество подписчиков: " + ch['subs'] + "\nСтоимость рекламы: " + ch['price']+ "\n\n"
+        row = "<a href='"+ch['link']+"'>"+ch['name']+"</a>\n" + "\nСтоимость рекламы: " + ch['price']+ "\n\n"
         print(row)
         message = message+row
     
