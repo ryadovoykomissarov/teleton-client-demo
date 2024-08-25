@@ -4,7 +4,8 @@ from aiogram.utils.keyboard import ReplyKeyboardBuilder
 
 def main_kb(user_tgid: int):
     kb_list = [
-        [KeyboardButton(text="Купить рекламу")]
+        [KeyboardButton(text="Купить рекламу"),
+         KeyboardButton(text="Я продаю рекламу")]
     ]
     # if user_tgid in admins:
     #     kb_list.append([KeyboardButton(text="Администрирование")])
